@@ -1,27 +1,12 @@
-//aca estoy importando las cosas
 const express = require('express');
-const path = require ("path") ;
-
-// aca cree expres
 const app = express();
+app.use(express.static('public'));
 
 
-//
-const port = process.env.port || 3000;
-app.listen (port, () => console.log ("servidor andando"));
-
-//los parametros de la funcion son un callback
-
-app.get ("/", function (req, res) {
-    res.send ("llegaste al sitio2")
+app.listen(3000, ()=>{
+    console.log('Servidor funcionando');
 });
 
-//el 404
-app.get('/', (req, res) => {
-    res.status(404).send("404 - Not Found");
-  });
-
-  // aca esta el root
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
-  });
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/home.html');
+});
