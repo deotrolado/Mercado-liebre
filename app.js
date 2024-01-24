@@ -6,15 +6,6 @@ const path = require ("path") ;
 const app = express();
 
 
-// aca esta el root
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
-  });
-
-//el 404
-app.get('*', (req, res) => {
-    res.status(404).send("404 - Not Found");
-  });
 //
 const port = process.env.port || 3000;
 app.listen (port, () => console.log ("servidor andando"));
@@ -24,3 +15,13 @@ app.listen (port, () => console.log ("servidor andando"));
 app.get ("/", function (req, res) {
     res.send ("llegaste al sitio2")
 });
+
+//el 404
+app.get('/', (req, res) => {
+    res.status(404).send("404 - Not Found");
+  });
+
+  // aca esta el root
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+  });
