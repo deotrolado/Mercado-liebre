@@ -30,7 +30,7 @@ header div.top-header p{
 }
 
 header{
-    background-color: #EAC926;
+    background-color: #eacf45;
 }
 
 header div.logo,
@@ -65,14 +65,14 @@ header .form .input{
     background-color: #FFF;
     border: 1px solid #000;
     outline: none;
-    color: #666;
+    color: #e1de40;
     padding: 2px;
 }
 
 header .form .submit{
     background-color: #FFF;
     border: 1px solid #000;
-    color: #666;
+    color: #d8e846;
     width: 10%;
 }
 
@@ -114,7 +114,7 @@ div.offers{
 
 h3,
 .description{
-    color: #666;
+    color: #ece14e;
 }
 
 .description{
@@ -179,7 +179,7 @@ article div.main-article{
     }
 
     main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0px 0px 10px rgb(213, 201, 43);
     }
 
     main section div.products{
