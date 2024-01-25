@@ -16,5 +16,5 @@ app.listen(3000, ()=>{
 
 //configura la home
 app.get('/', (req,res)=>{
-    res.sendFile(path.resolve(__dirname, './views/home.html'));
+    res.sendFile(path.resolve(__dirname, 'views/home.html'));
 });
