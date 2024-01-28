@@ -30,7 +30,7 @@ header div.top-header p{
 }
 
 header{
-    background-color: #eacf45;
+    background-color: #eac926;
 }
 
 header div.logo,
@@ -65,14 +65,14 @@ header .form .input{
     background-color: #FFF;
     border: 1px solid #000;
     outline: none;
-    color: #e1de40;
+    color: #eac926;
     padding: 2px;
 }
 
 header .form .submit{
     background-color: #FFF;
     border: 1px solid #000;
-    color: #d8e846;
+    color: #eac926;
     width: 10%;
 }
 
@@ -81,7 +81,7 @@ div.burger-menu{
 }
 
 div.burger-menu i{
-    background-color: #0044AA;
+    background-color: #03264C;
     border-radius: 5px;
     color: #FFF;
     font-size: 20px;
@@ -132,7 +132,7 @@ main{
 }
 
 main section article{
-    background-color: #f3f36a;    
+    background-color: #eac926;    
     margin: 10px 0px;
 }
 
@@ -152,7 +152,7 @@ main section article i{
     width: 30px;
     height: 30px;
     border: 1px solid #39b54a;
-    background-color: #e3e854;
+    background-color: #eac926;
     border-radius: 50%;
     position: absolute;
     right: 20px;
@@ -205,3 +205,10 @@ article div.main-article{
         width: 22%;
     }
 }
+.centrado {
+    text-align: center;
+  }
+
+.fas fa-truck  {    width: 2em; 
+    height: 2em;
+  }
