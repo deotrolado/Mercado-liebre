@@ -160,10 +160,12 @@
 }
 
 .home__footer {
+
   color: var(--colorGrisOscuro);
 }
 
 .home__footer__section {
+
   text-align: center;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -174,6 +176,9 @@
 }
 
 .home__footer__section i {
+
+  text-align: center;
+  justify-content: center;  /* Asegura que los elementos también se centren verticalmente */
   font-size: 2em;
   margin-bottom: 10px;
   color: var(--colorCeleste);
