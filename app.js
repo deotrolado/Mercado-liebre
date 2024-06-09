@@ -14,7 +14,7 @@ app.listen(3000, ()=>{
     console.log('Servidor andando');
 });
 
-//configura la home
+//configura la home, el register y el login
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'views', 'home.html')));
 app.get('/register', (req, res) => res.sendFile(path.join(__dirname, 'views', 'register.html')));
 app.get('/login', (req, res) => res.sendFile(path.join(__dirname, 'views', 'login.html')));

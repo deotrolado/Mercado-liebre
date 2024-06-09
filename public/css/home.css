@@ -1,281 +1,273 @@
 .home__header {
-    background-color: var(--colorAmarillo);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  background-color: var(--colorAmarillo);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .home__header__logo {
-    width: 50%;
+  width: 50%;
 }
 
 .home__header__logo img {
-    padding: 20px 0 15px 20px;
-    width: 95%;
+  padding: 20px 0 15px 20px;
+  width: 95%;
 }
 
 .home__header__buscador {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 .home__header__buscador input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    width: 90%;
-    position: relative;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  position: relative;
 }
 
 .home__header__buscador button {
-    border: none;
-    border-radius: 5px;
-    background-color: #ffffff;
-    color: var(--colorGrisOscuro);
-    padding: 10px;
-    position: absolute;
-    right: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: var(--colorGrisOscuro);
+  padding: 10px;
+  position: absolute;
+  right: 18px;
 }
 
 .home__header p {
-    font-size: 12px;
-    width: 100%;
-    padding: 5px 0;
-    text-align: center;
+  font-size: 12px;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
 }
 
 .home__header__nav {
-    display: none;
+  display: none;
 }
 
 .home__header__nav ul {
-    padding: 0;
+  padding: 0;
 }
 
 .home__header__nav ul li {
-    
-    list-style: none;
-    font-size: 12px;
+  list-style: none;
+  font-size: 12px;
 }
 .home__header__nav ul li a {
-    color: black;
-    text-decoration: none;
-    
+  color: black;
+  text-decoration: none;
 }
 
 .menu__burguer {
-    text-align: center;
+  text-align: center;
 }
 
 .menu__burguer button {
-    background-color: var(--colorCeleste);
-    border: none;
-    width: 35px;
-    height: 35px;
-    font-size: 20px;
-    color: white;
-    margin: 18px;
-    border-radius: 15%;
+  background-color: var(--colorCeleste);
+  border: none;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+  margin: 18px;
+  border-radius: 15%;
 }
 
 .home__main {
-    background-color: var(--colorGrisClaro); 
-    text-align: center;
+  background-color: var(--colorGrisClaro);
+  text-align: center;
 }
 
 .home__main div img {
-    width: 100%;
+  width: 100%;
 }
 
 .home__main__section {
-    width: 95%;
-    margin: auto;
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .home__main__section h3 {
-    padding: 15px;
-    color: var(--colorGrisOscuro);
-    width: 100%;
-    text-align: left;
+  padding: 15px;
+  color: var(--colorGrisOscuro);
+  width: 100%;
+  text-align: left;
 }
 
-
 .home__main__section__article {
-    margin-bottom: 10px;
-    width: 100%;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .home__main__section__article img {
-    width: 100%;
+  width: 100%;
 }
 
 .home__main__section__article div {
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 1px solid var(--colorGrisClaro);
-    padding: 15px;
-    background-color: #ffffff;
-    text-align: left;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--colorGrisClaro);
+  padding: 15px;
+  background-color: #ffffff;
+  text-align: left;
+  position: relative;
 }
 
 .home__main__section__article div i {
-    border: 1px solid var(--colorVerde);
-    font-size: 15px;
-    padding: 8px;
-    color: var(--colorVerde);
-    border-radius: 50%;
-    position: absolute;
-    right: 20px;
-    top: -20px;
-    transition: all 2s;
+  border: 1px solid var(--colorVerde);
+  font-size: 15px;
+  padding: 8px;
+  color: var(--colorVerde);
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  transition: all 2s;
 }
 
 .home__main__section__article div i:hover {
-    transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .home__main__section__article div h4 {
-    height: 0;
-    overflow: hidden;
-    transition: all 2s;
+  height: 0;
+  overflow: hidden;
+  transition: all 2s;
 }
 
 .home__main__section__article--precio {
-    font-size: 18px;
-    width: 30%;
+  font-size: 18px;
+  width: 30%;
 }
 
 .home__main__section__article--descuento {
-    font-size: 16px;
-    color: var(--colorVerde);
-    width: 70%;
+  font-size: 16px;
+  color: var(--colorVerde);
+  width: 70%;
 }
 
 .home__main__section__article h4 {
-    font-weight: 400;
-    padding-top: 15px;
-    width: 100%;
-    color: var(--colorGrisOscuro);
+  font-weight: 400;
+  padding-top: 15px;
+  width: 100%;
+  color: var(--colorGrisOscuro);
 }
 
 .home__footer {
-    color: var(--colorGrisOscuro);
+  color: var(--colorGrisOscuro);
 }
 
 .home__footer__section {
-
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .home__footer__section h5 {
-    font-size: 18px;
-
+  font-size: 18px;
 }
 
 .home__footer__section i {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: var(--colorCeleste);
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: var(--colorCeleste);
 }
 
 .home__footer__section p {
-    font-size: 12px;
-    margin-left: 30px;
-    width: 80%;
+  font-size: 12px;
+  margin-left: 30px;
+  width: 80%;
 }
 
 @media (min-width: 768px) {
+  .home__header {
+    padding-bottom: 15px;
+  }
 
-    .home__header {
-        padding-bottom: 15px;
-    }
+  .home__header__logo {
+    width: 35%;
+  }
 
-    .home__header__logo {
-        width: 35%;
-    }
+  .home__header__buscador {
+    width: 30%;
+  }
 
-    .home__header__buscador {
-        width: 30%;
-    }
+  .home__header__buscador input {
+    width: 95%;
+    padding: 5px;
+  }
 
-    .home__header__buscador input {
-        width: 95%;
-        padding: 5px;
-    }
+  .home__header__buscador button {
+    padding: 5px;
+    right: 37%;
+  }
 
-    .home__header__buscador button {
-        padding: 5px;
-        right: 37%;
-    }
+  .home__header p {
+    width: 35%;
+    text-align: center;
+    margin: auto;
+  }
 
-    .home__header p {
-        width: 35%;
-        text-align: center;
-        margin: auto;
-}
+  .home__header__nav {
+    display: block;
+    padding-left: 10px;
+    width: 50%;
+  }
 
-    .home__header__nav {
-        display: block;
-        padding-left: 10px;
-        width: 50%;
-    }
+  .home__header__nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 15px;
+  }
 
-    .home__header__nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        padding: 0 15px;
-    }
-    
-    .home__header__nav__cuenta ul{
-        justify-content: right;
-    }
+  .home__header__nav__cuenta ul {
+    justify-content: right;
+  }
 
+  .menu__burguer {
+    display: none;
+  }
 
-    .menu__burguer {
-        display: none;
-    }
-
-    .home__main__section {
+  .home__main__section {
     padding-bottom: 20px;
     width: 90%;
     justify-content: space-between;
     align-items: flex-start;
     margin: 0 auto;
-    }
+  }
 
-    .home__main__section h3 {
-        padding: 18px 0;
-    }
+  .home__main__section h3 {
+    padding: 18px 0;
+  }
 
-    .home__main__section__article {
-        width: 45%;
-        transition: all 2s;
-    }
+  .home__main__section__article {
+    width: 45%;
+    transition: all 2s;
+  }
 
-    .home__main__section__article:hover {
-        box-shadow: 0px 0px 15px rgb(100, 100, 100);
-    }
+  .home__main__section__article:hover {
+    box-shadow: 0px 0px 15px rgb(100, 100, 100);
+  }
 
-    .home__main__section__article div {
-        height: 80px;
-    }
+  .home__main__section__article div {
+    height: 80px;
+  }
 
-    .home__main__section__article div:hover h4 {
-        height: 40px;
-        display: block;
-    }
+  .home__main__section__article div:hover h4 {
+    height: 40px;
+    display: block;
+  }
 }
 
-@media(min-width: 1140px) {
-
-    .home__main__section__article {
-        width: 20%;
-    }
+@media (min-width: 1140px) {
+  .home__main__section__article {
+    width: 20%;
+  }
 }

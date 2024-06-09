@@ -174,7 +174,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,20 +185,14 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
--webkit-appearance: button;
-}
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -262,50 +257,37 @@ textarea {
   overflow: auto;
 }
 
-
-
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 
-
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-
-
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
-
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 
-
 details {
   display: block;
 }
-
 
 summary {
   display: list-item;
 }
 
-
-
 template {
   display: none;
 }
-
-
 
 [hidden] {
   display: none;
